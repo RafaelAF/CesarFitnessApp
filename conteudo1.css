@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+.head-container{
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 70px;
+    background-color: #666;
+    justify-content: space-around;
+    align-items: center;
+}
+.head-container div{
+    border-radius: 50%;
+}
+
+.head-container div img{
+    height: 60px;
+    border-radius: 50%;
+}
+
+.head-container h1{
+    font-family: 'Ultra', serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.main-container{
+    background-image: url(/6857c0aefc0c3d0232c6d3c5ae869dee.jpg);
+    width: 100vw;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.main-container .cadastro{
+    width: 80vw;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    position: relative;
+    justify-content: flex-start;
+    padding-left: 15px;
+}
+.cadastro label, .cadastro h2{
+    color: #fff;
+}
